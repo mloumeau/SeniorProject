@@ -26,7 +26,6 @@ const HomeScreen = ({ navigation }) => {
   const [loaded] = useFonts({
     Shrikhand: require('./assets/fonts/Shrikhand-Regular.ttf'),
   });
-
   
   const [userName, onChangeUserName] = React.useState(null);
   const [password, onChangePassword] = React.useState(null);
