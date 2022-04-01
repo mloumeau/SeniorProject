@@ -1,13 +1,10 @@
-const skiResorts =
- [ "Eldora+Mountain,Colorado",
+const skiResorts = [
+    "Eldora+Mountain,Colorado",
     "Steamboat+Springs,Colorado",
     "Copper+Mountain,Colorado",
     "Vail,Colorado",
-    "Beaver+Creek,Colorado",
     "Winter+Park,Colorado",
-    "Aspen+Highlands,Colorado",
     "Aspen,Colorado",
-    "Snowmass,Colorado",
     "Crested+Butte,Colorado",
     "Echo+Mountain,Colorado",
     "Granby+Ranch,Colorado",
@@ -19,7 +16,6 @@ const skiResorts =
     "Silverton,Colorado",
     "Sunlight,Colorado",
     "Gunnison,Colorado",
-    "Lake+City,Colorado",
     "Ouray,Colorado",
     "Mount+Bachelor,Oregon",
     "Hoodoo,Oregon",
@@ -38,6 +34,11 @@ const skiResorts =
     "Cherry+Peak,Utah",
     "Eagle+Point,Utah",
     "Nordic+Valley,Utah",
-    "Sundance+Mountain,Utah"
+    "Sundance+Mountain,Utah",
+    "White+Pine,Wyoming",
+    "Snowy+Range,Wyoming",
+    "Hogadon,Wyoming",
+    "Meadowlark,Wyoming",
+    "Cody,Wyoming"
  ];
 export default skiResorts;

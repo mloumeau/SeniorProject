@@ -7,7 +7,7 @@ export default class HomeScreen extends Component {
       <View style={styles.container}>
       <ImageBackground source={require('./assets/images/snowybackground.jpg')} resizeMode="cover" style={styles.image}>
         <View style={styles.title}>
-          <Text style={{ fontFamily: "Shrikhand", fontSize: 40, color: "#6a7483", }}>Ski Resort Snow Report!</Text>
+          <Text style={{ fontSize: 40, color: "#6a7483", }}>Ski Resort Snow Report!</Text>
         </View>
         <View style={styles.login}>
           <Image style={styles.snowflake} source={require('./assets/images/SnowflakeIcon.png')} />
@@ -29,7 +29,7 @@ export default class HomeScreen extends Component {
             styles.button,
           ]}
           onPress={() =>
-            this.props.navigation.navigate('LandingPage', { name: 'Jane' })
+            this.props.navigation.navigate('LandingPage')
       }>
           <Text style={styles.buttonText}>Continue as Guest</Text>
         </Pressable>
